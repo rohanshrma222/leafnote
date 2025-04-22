@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
 import { DarkModeToggle } from './DarkModeToggle'
+import LogOutButton from './ui/LogOutButton'
 
 async function NavBar() {
   const user = null;
